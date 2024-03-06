@@ -37,7 +37,8 @@ namespace PrefinalPOO.Montes
             var ladoA = PedirInt("Ingrese el ladoA: ");
             var ladoB = PedirInt("Ingrese el ladoB: ");
             var ladoC = PedirInt("Ingrese el ladoC: ");
-            Console.WriteLine($"{ Triangulo.ValidarTriangulo(ladoA,ladoB, ladoC)}");
+            Console.WriteLine($"{Triangulo.ValidarTriangulo(ladoA,ladoB, ladoC)}");
+            Console.WriteLine("Los datos ingresados forman un triangulo");
 
             Console.WriteLine($"{Triangulo.TipodeTriangulo(ladoA, ladoB, ladoC)}");
             Console.WriteLine();
